@@ -1,0 +1,8 @@
+[package]
+name = "erratasthenes"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+stm32-metapac = { version = "21.0.0", features = ["stm32u5a5zj"] }
+paste = "1.0.15"
